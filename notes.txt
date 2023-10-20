@@ -5,3 +5,7 @@ os jogos deve ser feitos em 'div's separadas e com o display incial 'none' para 
 centralizar qualquer coisa: https://www.instagram.com/p/CsQ-BCSAa_m/?img_index=2
 
 scroll to top: https://www.instagram.com/p/Cj06jffPw9d/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==
+
+efeito de opcacidade nas divs sem hover ativo: https://www.instagram.com/p/CnRrfc2MJJm/?img_index=1
+
+fonte 1: https://uiinitiative.com/catalog/spring-slider
