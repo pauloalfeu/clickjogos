@@ -1,25 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js Games</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Nostalgic Games</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'><link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
 
-    <!-- Botão home que reinicia a página-->
-    <div class="header">
-        <img src="/assets/logo-veed-remove-background.png" alt="" id="logo-img" width="260" height="200">
-    </div>
+<!-- Logo + botão home que reinicia a página-->
+  <div class="header">
+    <img src="https://i.ibb.co/s5RjhCb/OIG1-removebg-preview.png" alt="" id="logo-img" width="165" height="155">
+    <!-- old one: https://i.ibb.co/HdmTnZ9/OIG-Photo-Room-png-Photo-Room.png
+    https://i.ibb.co/s5RjhCb/OIG1-removebg-preview.png -->
+  </div>
 
-    <!-- Swiper para selecionar os jogos-->
-    <div class="swiper">
-        <div class="swiper-bg-img">
-            <img src="assets/swiper-backgroud.jpeg" alt="">
-        </div>
+<!-- INICIO TEMPLATE Card Slider - CodePen: https://codepen.io/yudizsolutions/pen/wvzrPoj -->
+<section class="game-section">
+  <h2 class="line-title">Disponíveis para jogar:</h2>
+  <div class="owl-carousel custom-carousel owl-theme">
+    <div class="item active" style="background-image: url(https://i.ibb.co/ZHfkKvZ/swiper-img-002.jpg);"> 
+      <div class="item-desc">
+        <h3>Super Mario Bros</h3>
+        <p>"Super Mario Bros." é um jogo de plataforma 2D que coloca os jogadores no papel de Mario, um encanador italiano, que deve resgatar a Princesa Peach do vilão Bowser, o Rei dos Koopas.</p>
+      </div>
     </div>
+    <div class="item" style="background-image: url(https://i.ibb.co/CPx9j6z/swiper-img-009.jpg);">
+      <div class="item-desc">
+        <h3>Snake Game</h3>
+        <p>O objetivo do jogo Snake é guiar uma serpente que cresce de tamanho à medida que come itens pela tela, sem colidir com as paredes do cenário ou com o próprio corpo da serpente.</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(https://i.ibb.co/nBF9CRS/swiper-img-010.jpg);">
+      <div class="item-desc">
+        <h3>Tic-Tac-Toe</h3>
+        <p>O objetivo é ser o primeiro jogador a formar uma linha reta de três de suas peças (X ou O) na horizontal, vertical ou diagonal, ou preencher todo o tabuleiro sem que nenhum jogador consiga formar uma linha de três.</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(https://i.ibb.co/Sfp3NVc/swiper-img-005.jpg);">
+      <div class="item-desc">
+        <h3>Pac-Man</h3>
+        <p>Um dos jogos arcade mais famosos de todos os tempos, onde o jogador controla o personagem Pac-Man para comer pontos e evitar fantasmas.</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(https://i.ibb.co/Yhf8tfr/OIG.jpg);">
+      <div class="item-desc">
+        <h3>Tetris</h3>
+        <p>Um quebra-cabeça clássico em que os jogadores organizam blocos que caem para formar linhas completas.</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(https://i.ibb.co/0sgggp1/OIG-1.jpg);">
+      <div class="item-desc">
+        <h3>Asteroids</h3>
+        <p>Um jogo de tiro onde o jogador controla uma nave espacial em um campo de asteroides, atirando neles e evitando colisões.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FIM TEMPLATE Card Slider - CodePen: https://codepen.io/yudizsolutions/pen/wvzrPoj -->
 
-    <script src="script.js"></script>
+
+<!-- script do template -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
