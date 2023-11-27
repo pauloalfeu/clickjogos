@@ -111,8 +111,8 @@ button {
 
 .game-section .item {
   margin: 0 15px 60px;
-  width: 288px;
-  height: 360px;
+  width: 216px; /* old: 288px */
+  height: 270px; /* old: 360px */
   display: flex;
   display: -webkit-flex;
   align-items: flex-end;
@@ -126,7 +126,7 @@ button {
   cursor: pointer;
 }
 .game-section .item.active {
-  width: 450px;
+  width: 378px; /* old: 450px */
   box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
 }
@@ -172,6 +172,63 @@ button {
   position: relative;
   z-index: 5;
 }
+
+/* FOOTER CSS START */
+.footer{
+  background: #202021;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  display:inline-block;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fb3a64;
+  }
+
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
+  /* FOOTER CSS END */
 
 /******** Middle section CSS End *******/
 
